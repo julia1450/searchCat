@@ -59,6 +59,10 @@ body * {
   min-height: 300px;
 }
 
+.SearchResult .lazy img:not([src]) {
+  visibility: hidden;
+}
+
 .SearchInput {
   width: 100%;
   font-size: 40px;
